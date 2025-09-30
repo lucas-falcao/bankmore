@@ -1,4 +1,5 @@
 using Confluent.Kafka;
+using Shared.Events;
 
 namespace TransferenciaApi.Infrastructure.Kafka;
 
@@ -15,6 +16,12 @@ public class KafkaProducer
             AutoOffsetReset = AutoOffsetReset.Earliest
         };
         _consumer = new ConsumerBuilder<Null, string>(config).Build();
+    }
+
+
+    public void Consume(string topic, Action<TransferenciaEvent> processEvent)
+    {
+        
     }
 
 }
