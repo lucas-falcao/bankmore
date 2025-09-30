@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36401.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaCorrenteApi", "ContaCorrenteApi\ContaCorrenteApi.csproj", "{F52C6160-7983-47D8-89C4-FDB16CC15A1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransferenciaApi", "TransferenciaApi\TransferenciaApi.csproj", "{069A7BC6-40D0-42BD-81D8-3263A91B02C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F52C6160-7983-47D8-89C4-FDB16CC15A1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F52C6160-7983-47D8-89C4-FDB16CC15A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F52C6160-7983-47D8-89C4-FDB16CC15A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F52C6160-7983-47D8-89C4-FDB16CC15A1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{069A7BC6-40D0-42BD-81D8-3263A91B02C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{069A7BC6-40D0-42BD-81D8-3263A91B02C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{069A7BC6-40D0-42BD-81D8-3263A91B02C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{069A7BC6-40D0-42BD-81D8-3263A91B02C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5653B3FB-021C-41D3-BADF-74F07CC5BCB9}
+	EndGlobalSection
+EndGlobal
